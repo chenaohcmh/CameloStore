@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EjemploCMH</string>
+
+    <string name="text_username">Username</string>
+    <string name="text_password">Password</string>
+
+    <string name="hint_password">Your password</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_nameprod">Product name</string>
+    <string name="txt_precprod">Product Price</string>
+    <string name="text_btncliente">Customer</string>
+    <string name="text_btnadmon">Admin</string>
+    <string name="user">Carlos Mario</string>
+    <string name="txt_introduction">Introduction</string>
+    <string name="txt_carreta">Introductionxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+    <string name="txt_welcomeuser">Do you whis entry?</string>
+
+</resources>

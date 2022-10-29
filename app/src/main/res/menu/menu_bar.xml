@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itm_buscar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Busqueda"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/itm_help"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Help"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/itm_Borrar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Eliminar"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/itm_contactar"
+
+        android:title="Contactar"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itm_enviar"
+
+        android:title="enviar"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itm_Version"
+
+        android:title="Eliminar"
+        app:showAsAction="always"/>
+
+
+
+
+</menu>

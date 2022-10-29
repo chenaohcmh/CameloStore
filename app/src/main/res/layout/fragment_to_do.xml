@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdmonActivity"
+
+    android:background="@drawable/imbackg03"
+    android:orientation="vertical">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_weight="3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_welcome"
+                android:textColor="#FDFBFB"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin Monica"
+                android:textColor="#FAF7F7"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/imlogo2"
+            android:elevation="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1.5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginEnd="10dp"
+                android:elevation="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/improd001" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nameProd01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="Avocato"
+                    android:minHeight="48dp"
+                    android:textColor="#090909"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/PrProd01"
+                    android:layout_width="57dp"
+                    android:layout_height="16dp"
+                    android:gravity="center_horizontal"
+                    android:minHeight="48dp"
+                    android:text="12.000"
+                    android:textColor="#090909"
+                    android:textSize="10dp" />
+
+                <LinearLayout
+                    android:layout_width="115dp"
+                    android:layout_height="14dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="104dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:minHeight="48dp"
+                        android:text="Unidades Disponibles"
+                        android:textColor="#090909"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/cantproduct1"
+                        android:layout_width="16dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_horizontal"
+                        android:minHeight="48dp"
+                        android:text="1"
+                        android:textColor="#090909"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_pruct1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Detalles"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginEnd="10dp"
+                android:elevation="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/improd002"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nameProd02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center_horizontal"
+                    android:minHeight="48dp"
+                    android:text="Stich"
+                    android:textColor="#090909"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/prProd02"
+                    android:layout_width="57dp"
+                    android:layout_height="16dp"
+                    android:gravity="center_horizontal"
+                    android:minHeight="48dp"
+                    android:text="12.000"
+                    android:textColor="#090909"
+                    android:textSize="10dp" />
+
+                <LinearLayout
+                    android:layout_width="115dp"
+                    android:layout_height="14dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="104dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:minHeight="48dp"
+                        android:text="Unidades Disponibles"
+                        android:textColor="#090909"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/cantproduct2"
+                        android:layout_width="16dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_horizontal"
+                        android:minHeight="48dp"
+                        android:text="1"
+                        android:textColor="#090909"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_pruct2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Detalles"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginEnd="10dp"
+                android:elevation="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/improd03"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nameProd03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="Gorillaz"
+                    android:minHeight="48dp"
+                    android:textColor="#090909"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/PrProd03"
+                    android:layout_width="57dp"
+                    android:layout_height="16dp"
+                    android:gravity="center_horizontal"
+                    android:minHeight="48dp"
+                    android:text="12.000"
+                    android:textColor="#090909"
+                    android:textSize="10dp" />
+
+                <LinearLayout
+                    android:layout_width="115dp"
+                    android:layout_height="14dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="104dp"
+                        android:layout_height="27dp"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:minHeight="48dp"
+                        android:text="Unidades Disponibles"
+                        android:textColor="#090909"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/cantproduct3"
+                        android:layout_width="16dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_horizontal"
+                        android:minHeight="48dp"
+                        android:text="1"
+                        android:textColor="#090909"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_pruct3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Detalles"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginEnd="10dp"
+                android:elevation="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/improd04"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nameProd04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:gravity="center_horizontal"
+                    android:text="Watchmen"
+                    android:minHeight="48dp"
+                    android:textColor="#090909"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/PrProd04"
+                    android:layout_width="57dp"
+                    android:layout_height="16dp"
+                    android:gravity="center_horizontal"
+                    android:minHeight="48dp"
+                    android:text="12.000"
+                    android:textColor="#090909"
+                    android:textSize="10dp" />
+
+                <LinearLayout
+                    android:layout_width="115dp"
+                    android:layout_height="14dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="104dp"
+                        android:layout_height="30dp"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:minHeight="48dp"
+                        android:text="Unidades Disponibles"
+                        android:textColor="#090909"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/cantproduct4"
+                        android:layout_width="16dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_horizontal"
+                        android:minHeight="48dp"
+                        android:text="1"
+                        android:textColor="#090909"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_pruct4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="Detalles"
+                    android:textColor="@color/black"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
